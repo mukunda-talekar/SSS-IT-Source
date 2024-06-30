@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(171, 209, 171);
+    background-color: #F7F9F9 ;
 }
 .header1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: skyblue;
+    background-color: #28B463 ;
+    width: 100%;
 }
 
 .header1.nav{
@@ -33,10 +34,16 @@ body{
     text-decoration: none;
     color: black;
     font-size: 20px;
+
+    
 }
 .logo{
     font-size: 40px;
     margin-left: 100px;
+    color: #DFFF00 ;
+}
+.header1 .nav a:hover{
+    color: #DFFF00;
 }
 .header2{
     display: flex;
@@ -57,24 +64,20 @@ body{
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    margin-left: 150px;
+    margin-left: 40px;
     
 }
 .header2 .nav1 ul li {
     list-style: none;
     justify-content: space-around;
     padding: 10px;
-
-    
-    
 }
 a{
     text-decoration: none;
-    
-
 }
 .header2 .nav1 ul li a{
     color: white;
     padding: 20px;
+    
 }
 
