@@ -6,29 +6,75 @@
 body{
     background-color: rgb(171, 209, 171);
 }
-header{
+.header1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: skyblue;
 }
-.nav{
+
+.header1.nav{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
 }
-.nav ul{
+.header1 .nav ul{
     display: flex;
     justify-content: space-between;
     text-decoration: none;
 }
-li{
+.header1 .nav ul li{
     list-style: none;
     justify-content: space-around;
     padding: 20px;
     margin: 30px;
 }
+.header1 .nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 .logo{
     font-size: 40px;
     margin-left: 100px;
 }
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-top: 5px;
+}
+.header2 .nav1{
+    
+    display: flex;
+    justify-content: space-between;
+  
+
+    
+}
+.header2 .nav1 ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 150px;
+    
+}
+.header2 .nav1 ul li {
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+
+    
+    
+}
+a{
+    text-decoration: none;
+    
+
+}
+.header2 .nav1 ul li a{
+    color: white;
+    padding: 20px;
+}
+
